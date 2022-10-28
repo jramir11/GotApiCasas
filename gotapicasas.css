@@ -1,0 +1,31 @@
+* {
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+}
+
+.horiz1 {
+    display: flex;
+    /*padding: 0px 0px 0px 200px; */
+    margin-left: 200px;
+    margin-top: 10px;
+    /*display: inline-flex; */
+}
+.horiz-img {
+    padding: 0px 10px 0px 0px;
+   /*margin-left: 90px;*/
+}
+
+
+.horiz2 {
+    border: 3px solid black;
+    height: 300px;
+    width: 500px;
+    /*padding: 10px 0px 0px 100px;*/
+    margin-left: 370px;
+    margin-top: 10px;
+}
+.horiz2-h5 {
+    margin-left: 390px;
+    margin-top: 10px;
+}
