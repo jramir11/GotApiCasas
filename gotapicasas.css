@@ -17,14 +17,15 @@
 }
 
 
-.horiz2 {
+ .horiz2 {
     border: 3px solid black;
     height: 300px;
     width: 500px;
-    /*padding: 10px 0px 0px 100px;*/
+    
     margin-left: 370px;
     margin-top: 10px;
-}
+} 
+
 .horiz2-h5 {
     margin-left: 390px;
     margin-top: 10px;

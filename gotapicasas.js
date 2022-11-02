@@ -39,12 +39,12 @@ function baratheon() {
 //trabajo con API para rescatar datos JSON
 let nombreDiv = document.querySelector("#horiz2");
 function makeNombreApi(data) {
-    var res = `<div class="horiz2" id="horiz2">
+    var res = `
                     <br><h4>Nombre Casa : ${data.name}</h4>
                     <br><h4>libro George RR Martin : ${data.words}</h4>
                     <br><br><h4>Titulos de la Casa : ${data.titles}</h4>
                     <br><br><h4>Region : ${data.region}</h4>
-                </div>`;
+                `;
     return res;
 }
 async function getGithub(casa) {
